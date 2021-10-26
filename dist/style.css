@@ -1,3 +1,9 @@
+.test {
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 @keyframes move {
   from {
     transform: translateY(0);
@@ -25,7 +31,7 @@
 }
 
 #js--sc--container:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -77,10 +83,10 @@
   height: 300px;
   max-width: 300px;
   margin: 0 auto;
-  border: 5px solid rgba(#FFF, 0.5);
+  border: 5px solid rgba(#fff, 0.5);
 }
 
- /* Where the scratchcard will be generate. */
+/* Where the scratchcard will be generate. */
 .sc__container {
   position: relative;
   overflow: hidden;
@@ -96,7 +102,7 @@
   height: 100%;
 }
 
- /* Background image, the result... */
+/* Background image, the result... */
 .sc__container > img {
   position: relative;
   top: 0;
@@ -105,7 +111,7 @@
   height: auto;
 }
 
- /* The scratchcard generate with scratchcard-js */
+/* The scratchcard generate with scratchcard-js */
 .sc__container canvas {
   position: absolute;
   top: 0;
@@ -114,7 +120,7 @@
   height: auto;
 }
 
- /* Scratchcard informations */
+/* Scratchcard informations */
 .sc__infos {
   text-align: center;
   height: 40px;
