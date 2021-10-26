@@ -2,6 +2,8 @@
   margin: 0;
   padding: 20px;
   box-sizing: border-box;
+  width: 700px;
+  overflow: hidden;
 }
 
 @keyframes move {
@@ -18,8 +20,8 @@
 #js--sc--container {
   position: relative;
   margin: 0 auto;
-  width: 300px;
-  height: 300px;
+  width: 700px;
+  height: 510px;
   border: 1px solid black;
   -webkit-user-select: none;
   -moz-user-select: none;
