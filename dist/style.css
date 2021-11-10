@@ -1,3 +1,6 @@
+.title {
+  text-align: center;
+}
 .test {
   margin: 0;
   padding: 20px;
@@ -13,7 +16,7 @@
   }
   to {
     opacity: 1;
-    transform: translateY(100px);
+    transform: translateY(30px);
   }
 }
 
@@ -27,9 +30,9 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  transform: translateY(100px);
+  transform: translateY(30px);
   opacity: 1;
-  animation: move 2s;
+  animation: move 1s;
 }
 
 #js--sc--container:before {
